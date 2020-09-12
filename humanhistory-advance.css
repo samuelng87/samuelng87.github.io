@@ -1,0 +1,923 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+
+#myBtn {
+  font-family: 'Times New Roman', Times, serif;
+  transform: rotate(90deg);
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 2rem;
+  border: none;
+  outline: none;
+  background-color:darkgray;
+  color: honeydew;
+  cursor: pointer;
+  padding: 0px 10px;
+  border-radius:50% ;
+  border: 5px solid honeydew;
+}
+
+#myBtn:hover {
+  transition: 1s;
+  background-color: #555;
+}
+
+.option {
+  height:23rem;
+  overflow-x:scroll;
+  text-align: center;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.option h4 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: large;
+}
+
+.option p {
+  font-size: small;
+}
+
+.option a {
+  color: whitesmoke;
+  text-decoration: none;
+  font-style: none;
+  color:transparent;
+}
+
+.option a:hover {
+  transition: 1s;
+  text-decoration: none;
+  font-style: none;
+  color:honeydew;
+}
+
+
+
+  .item1 {
+    height: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+      background-image: linear-gradient(
+          115deg,
+          rgba(245, 245, 245, 0),
+          rgba(245, 245, 233,0)
+        ),
+    url(humanface-img.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .item2 {
+    height: 10rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+      background-image: linear-gradient(
+          115deg,
+          rgba(245, 245, 245, 0),
+          rgba(245, 245, 233,0)
+        ),
+  url(https://vignette.wikia.nocookie.net/alldimensions/images/2/2d/Oxyverse.jpg/revision/latest/scale-to-width-down/1000?cb=20170427010836);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.item3 {
+  height: 10rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+    background-image: linear-gradient(
+        115deg,
+        rgba(245, 245, 245, 0),
+        rgba(245, 245, 233,0)
+      ),
+url(https://www.deloittedigital.com/content/dam/deloittedigital/us/images/landscape-2x1/hero-images/offering-20190301-digitaldna-hero.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.item4 {
+  height: 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+    background-image: linear-gradient(
+        115deg,
+        rgba(245, 245, 245, 0),
+        rgba(245, 245, 233,0)
+      ),
+url(https://i.pinimg.com/originals/d9/e1/87/d9e187bc16741b9d06539fe3ea50e384.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.item5 {
+  height: 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+    background-image: linear-gradient(
+        115deg,
+        rgba(245, 245, 245, 0),
+        rgba(245, 245, 233,0)
+      ),
+url(https://i.pinimg.com/originals/9b/e1/00/9be100e887ccaea4ed3ca73e0d5d48aa.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.item6 {
+  height: 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+    background-image: linear-gradient(
+        115deg,
+        rgba(245, 245, 245, 0),
+        rgba(245, 245, 233,0)
+      ),
+url(empire-navbar.jpeg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.item7 {
+  height: 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+    background-image: linear-gradient(
+        115deg,
+        rgba(245, 245, 245, 0),
+        rgba(245, 245, 233,0)
+      ),
+url(https://i.pinimg.com/originals/d4/0c/66/d40c6643d6bb41770c8474a4ada7216c.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.item8 {
+  height: 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+    background-image: linear-gradient(
+        115deg,
+        rgba(245, 245, 245, 0),
+        rgba(245, 245, 233,0)
+      ),
+url(https://i.pinimg.com/originals/d4/0c/66/d40c6643d6bb41770c8474a4ada7216c.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.item9 {
+  height: 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+    background-image: linear-gradient(
+        115deg,
+        rgba(245, 245, 245, 0),
+        rgba(245, 245, 233,0)
+      ),
+url(https://cdn.mos.cms.futurecdn.net/DZcWkBjF5kK79xnbcCGft4-320-80.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.item10 {
+  height: 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+    background-image: linear-gradient(
+        115deg,
+        rgba(245, 245, 245, 0),
+        rgba(245, 245, 233,0)
+      ),
+url(https://www.nasa.gov/sites/default/files/images/327705main_8111969_full.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.item11 {
+  height: 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+    background-image: linear-gradient(
+        115deg,
+        rgba(245, 245, 245, 0),
+        rgba(245, 245, 233,0)
+      ),
+url(https://s3.amazonaws.com/images.hamlethub.com/hhresized/500/4752/202003/covid-19-1330px-1584830074.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.item12 {
+  height: 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+    background-image: linear-gradient(
+        115deg,
+        rgba(245, 245, 245, 0),
+        rgba(245, 245, 233,0)
+      ),
+url(substanability-pic.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.item13 {
+  height: 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+    background-image: linear-gradient(
+        115deg,
+        rgba(245, 245, 245, 0),
+        rgba(245, 245, 233,0)
+      ),
+url(https://s3-us-west-2.amazonaws.com/tabs.web.media/c/9/c9lw/c9lw-square-orig.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.item14 {
+  height: 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+    background-image: linear-gradient(
+        115deg,
+        rgba(245, 245, 245, 0),
+        rgba(245, 245, 233,0)
+      ),
+url(https://www.worldometers.info/img/worldometers-fb.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.item15 {
+  height: 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+    background-image: linear-gradient(
+        115deg,
+        rgba(245, 245, 245, 0),
+        rgba(245, 245, 233,0)
+      ),
+url(https://s3-us-west-2.amazonaws.com/tabs.web.media/c/9/c9lw/c9lw-square-orig.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.main-section img {
+    width:100%;
+    object-fit: contain;
+    height: auto;
+}
+
+.picture-smallwords {
+    font-size: small;
+    padding-left:10px;
+    font-style: italic;
+}
+
+.slide {
+    background-color: lightgrey;
+    object-fit: cover;
+    height:400px;
+    overflow-y: auto;
+    border-top: 10px solid lightgrey;
+    border-bottom: 10px solid lightgrey;
+    border-radius: 10px;
+    box-shadow:5px 5px 5px 5px rgba(15, 17, 19, 0.3);
+
+}
+
+.story-table-flex {
+    display: flex;
+    justify-content: center;
+    padding:2rem 0rem;
+}
+
+.story p {
+    line-height: 1.5;
+    margin:0.5rem 0rem;
+}
+
+.story {
+    border-top: 10px solid lightgrey;
+    border-bottom: 10px solid lightgrey;
+    border-radius: 10px;
+    background-color:lightgrey;
+    width: 100%;
+    padding:1rem 1rem ;
+    margin-right:2%;
+    height:300px;
+    overflow-x: auto;
+    box-shadow:5px 5px 5px 5px rgba(15, 17, 19, 0.3);
+
+}
+
+.smallwords {
+    font-size: small;
+  }
+  
+  .redwords {
+    color: red;
+  }
+
+table {
+    width: 100%;
+    text-align: center;
+    background-color:lightgrey;
+}
+
+.table {
+height: 300px;
+background-color:lightgrey;
+border-radius: 10px;
+border-top: 10px solid lightgrey;
+border-bottom: 10px solid lightgrey;
+width:50%;
+overflow-x: auto;
+padding:1rem 1rem ;
+box-shadow:5px 5px 5px 5px rgba(15, 17, 19, 0.3);
+
+  }
+  
+  tr {
+  }
+  
+  th {
+    text-align:center;
+
+  }
+  
+  td {
+padding:20px 3px;
+  }
+
+
+
+html {
+    scroll-behavior: smooth;
+
+  }
+
+
+.size-adjust {
+    width: 70%;
+    font-family:'Times New Roman', Times, serif;
+
+
+}
+
+  
+.fire {
+    margin-right:70%;
+}
+
+.main-topic-header {
+font-size: 2rem;
+padding: 4rem 0rem 2rem 0px;
+text-align: center;
+line-height:1.6;
+}
+
+.coverpage h5 {
+    font-size: 120%;
+    color:red;
+}
+
+.coverpage p {
+font-size:90%;
+}
+
+
+.coverpage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    height:150px;
+    padding-bottom: 1rem;
+    line-height:1.7;
+}
+
+
+.population {
+    color: red;
+}
+
+
+.acticle1 {
+  margin-top:3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    width:100%;
+    height:100%;
+    z-index: -1;
+    background-image: linear-gradient(
+        115deg,
+        rgba(245, 245, 245, 0.8),
+        rgba(245, 245, 233,0.8)
+      ),
+  url(humanface-img.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.white-title {
+  font-size: 2rem;
+  padding: 4rem 0rem 2rem 0px;
+  text-align: center;
+line-height:1.6;
+color:white;
+}
+
+.acticle2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    width:100%;
+    height:100%;
+    z-index: -1;
+    background-image: linear-gradient(
+        115deg,
+        rgba(121, 122, 122, 0),
+        rgba(41, 136, 206, 0)
+      ),
+      
+  url(nasa-cosmo-img.jpg);
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.acticle3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ top: 0;
+   left: 0;
+   width:100%;
+   height:100%;
+   z-index: -1;
+   background-image: linear-gradient(
+       115deg,
+       rgba(41, 241, 195, 0.8),
+       rgba(41, 136, 206, 0.2)
+     ),
+url(dna-pic\ .jpg);
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+
+.words-design {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    padding-bottom: 1rem;
+    line-height:1.5;
+}
+
+.words-design h5 {
+    font-size: 1.2rem;
+}
+
+
+.acticle4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    width:100%;
+    height:100%;
+    z-index: -1;
+    background-image: linear-gradient(
+        115deg,
+        rgb(220,220,220,0.8),
+        rgba(46, 48, 49, 0.8)
+      ),
+      
+  url(hunter-pic.jpg);
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.acticle5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    width:100%;
+    height:100%;
+    z-index: -1;
+    background-image: linear-gradient(
+        115deg,
+        rgba(46, 148, 155, 0.2),
+        rgba(41, 136, 206, 0.3)
+      ),
+      
+  url(agricultural-pic.jpeg);
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.acticle6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    width:100%;
+    height:100%;
+    z-index: -1;
+    background-image: linear-gradient(
+        115deg,
+        rgba(121, 122, 122, 0.2),
+        rgba(41, 136, 206, 0.5)
+      ),
+      
+  url(empire-pic.jpg);
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.acticle7 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    width:100%;
+    height:100%;
+    z-index: -1;
+    background-image: linear-gradient(
+        115deg,
+        rgba(121, 122, 122, 0.5),
+        rgba(156, 114, 22, 0.7)
+      ),
+      
+  url(scientific-pic.jpeg);
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.acticle8 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    width:100%;
+    height:100%;
+    z-index: -1;
+    background-image: linear-gradient(
+        115deg,
+        rgba(121, 122, 122, 0.5),
+        rgba(142, 147, 151, 0.5)
+      ),
+      
+  url(industrial-pic.jpg);
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.acticle9 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    width:100%;
+    height:100%;
+    z-index: -1;
+    background-image: linear-gradient(
+        115deg,
+        rgba(121, 122, 122, 0.2),
+        rgba(41, 136, 206, 0.5)
+      ),
+      
+  url(technological-pic.jpg);
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.acticle10 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    width:100%;
+    height:100%;
+
+    z-index: -1;
+    background-image: linear-gradient(
+        115deg,
+        rgba(121, 122, 122, 0),
+        rgba(41, 136, 206, 0)
+      ),
+      
+  url(substanability-pic.jpg);
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.acticle11 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    width:100%;
+    height:100%;
+    z-index: -1;
+    background-image: linear-gradient(
+        115deg,
+        rgba(121, 122, 122, 0),
+        rgba(41, 136, 206, 0)
+      ),
+      
+  url(nasa-cosmo-img.jpg);
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.profile img {
+width: 200px;
+height: 200px;
+object-fit: cover;
+border-radius: 50%;
+box-shadow:5px 5px 5px 5px rgba(15, 17, 19, 0.3);
+
+}
+
+.profile {
+  font-family: 'Times New Roman', Times, serif;
+  box-shadow:5px 5px 5px 5px rgba(15, 17, 19, 0.3);
+    line-height: 1.5;
+    margin:10rem 0rem;
+    padding: 1rem 0rem;
+    font-size: x-small;
+    color: white;
+    text-align: center;
+    width:90%;
+    height:70%;
+    border-radius:10px;
+display: grid;
+grid-template-columns:1fr 1fr 1fr;
+background-color: rgba(114, 122, 122, 0.5);
+}
+
+
+footer {
+    font-size: small;
+    bottom:0;
+    right: 0;
+    color: white;
+    margin-bottom: 1rem;
+}
+
+.person p {
+  margin-top: 1rem;
+}
+
+
+@media (max-width:812px) {
+
+  .option {
+    height:13rem;
+
+  }
+}
+
+@media (max-width:500px) {
+
+  .option {
+    height:23rem;
+    overflow-x:scroll;
+    text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  }
+
+    .white-title {
+        font-size: 20px;
+    }
+
+    .slide {
+        background-color: lightgrey;
+        object-fit: cover;
+        height:200px;
+        overflow-y: auto;
+        border-top: 10px solid lightgrey;
+        border-bottom: 10px solid lightgrey;
+        border-radius: 10px;
+    }
+
+
+.slide {
+  margin-left: 1rem;
+  width: 90%;
+}
+
+    .size-adjust {
+        width: 90%;
+    
+    }
+
+    .main-topic-header {
+        font-size: 1.5rem;
+        text-align: center;
+        }
+
+
+        .story-table-flex {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding:1rem 0.7rem;
+
+        }
+        
+        .story {
+            width: 100%;
+        }
+
+
+
+        .fire {
+            margin-right:40%;
+        }
+     
+        .coverpage {      
+            height:80px;
+            line-height:1rem;
+        }
+
+        
+        .coverpage h5 {
+            font-size: 100%;
+            color:red;
+        }
+        
+        .coverpage p {
+        font-size:70%;
+        line-height: 2.5;
+        }
+
+        .words-design {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            text-align: center;
+            font-size: xx-small;
+            padding-bottom: 0rem;
+            line-height: 1.5;
+        } 
+
+        .words-design h5 {
+            font-size:small;
+        }
+
+        .story p {
+            line-height: 1.1;
+            margin: 1rem 0rem;
+            font-size: large;
+        }
+        .story {
+            width: 100%;
+            margin-right:0px;
+            height:300px;
+            overflow-x: auto;
+            padding:10px;
+        }
+
+        
+
+        .table {
+            padding:10px;
+            margin-top: 10px;
+            width:100%;
+            height:150px;
+            overflow-x: auto;
+          }
+          
+          tr {
+          
+              padding: 10px;
+          }
+          
+          th {
+            text-align:center;
+           
+            padding: 10px;
+          
+          
+          }
+          
+          td {
+         
+          }
+        
+
+          .profile {
+            grid-gap: 2rem;
+            line-height: 1.5;
+            margin:5rem 0rem;
+            padding: 1rem 0rem;
+            font-size: x-small;
+            color: white;
+            text-align: center;
+            width:90%;
+            height:70%;
+            border-radius:10px;
+        display: grid;
+        grid-template-columns:1fr ;
+        background-color: rgba(114, 122, 122, 0.5);
+        box-shadow:5px 5px 5px 5px rgba(15, 17, 19, 0.3);
+
+        }
+        
+        
+        footer {
+            font-size: 10px;
+            bottom:0;
+            right: 0;
+            color: white;
+            margin-bottom: 1rem;
+            padding:0rem 2rem ;
+            text-align: center;
+        }
+
+      }
